@@ -1,0 +1,52 @@
+[
+  {
+    "id": "A-1",
+    "company_id": "C1",
+    "description": "Serviço de setembro",
+    "amount": "3000.00",
+    "category": "SERVICOS",
+    "competence_date": "2026-09-30",
+    "payment_date": "2026-10-02",
+    "status": "PAID"
+  },
+  {
+    "id": "A-2",
+    "company_id": "C1",
+    "description": "Despesa de outubro",
+    "amount": "-1200.00",
+    "category": "OPERACIONAL",
+    "competence_date": "2026-10-01",
+    "payment_date": "2026-10-03",
+    "status": "PAID"
+  },
+  {
+    "id": "A-2",
+    "company_id": "C1",
+    "description": "Despesa de outubro",
+    "amount": "-1200.00",
+    "category": "OPERACIONAL",
+    "competence_date": "2026-10-01",
+    "payment_date": "2026-10-03",
+    "status": "PAID"
+  },
+  {
+    "id": "A-3",
+    "company_id": "C1",
+    "description": "Receita em aberto",
+    "amount": "500.00",
+    "category": "SERVICOS",
+    "competence_date": "2026-10-02",
+    "payment_date": null,
+    "status": "OPEN"
+  },
+  {
+    "id": "A-X",
+    "company_id": "C1",
+    "description": "Valor inválido de demonstração",
+    "amount": "abc",
+    "category": "SERVICOS",
+    "competence_date": "2026-10-02",
+    "payment_date": null,
+    "status": "OPEN"
+  }
+]

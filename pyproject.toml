@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "financeflow"
+version = "0.1.0"
+description = "APIs financeiras sintéticas para estudo de integração"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["fastapi==0.115.12", "uvicorn==0.34.2"]
+
+[project.optional-dependencies]
+test = ["httpx==0.28.1", "pytest==8.3.5"]
+
+[tool.setuptools.packages.find]
+where = ["src", "."]
+include = ["financeflow*", "mock_api*"]
+
+[tool.setuptools.package-data]
+mock_api = ["fixtures/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

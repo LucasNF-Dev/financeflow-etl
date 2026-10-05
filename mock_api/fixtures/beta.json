@@ -1,0 +1,35 @@
+[
+  {
+    "codigo": "B-1",
+    "empresa": "C1",
+    "historico": "Venda de outubro",
+    "valor": "2500,00",
+    "tipo": "RECEITA",
+    "categoria": "SERVICOS",
+    "competencia": "02/10/2026",
+    "pagamento": "03/10/2026",
+    "situacao": "PAGO"
+  },
+  {
+    "codigo": "B-2",
+    "empresa": "C1",
+    "historico": "Despesa de setembro",
+    "valor": "800,00",
+    "tipo": "DESPESA",
+    "categoria": "OPERACIONAL",
+    "competencia": "30/09/2026",
+    "pagamento": "01/10/2026",
+    "situacao": "PAGO"
+  },
+  {
+    "codigo": "B-3",
+    "empresa": "C1",
+    "historico": "Despesa cancelada",
+    "valor": "200,00",
+    "tipo": "DESPESA",
+    "categoria": "OPERACIONAL",
+    "competencia": "04/10/2026",
+    "pagamento": null,
+    "situacao": "CANCELADO"
+  }
+]
