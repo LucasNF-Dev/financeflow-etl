@@ -2,7 +2,7 @@
 
 ## Guia de implementação e estudo
 
-Este documento define o projeto de portfólio de Lucas Nascimento Ferreira: um pipeline em Python que integra transações de dois sistemas financeiros simulados, padroniza e valida os dados, persiste em PostgreSQL e calcula indicadores com SQL. A construção será feita em etapas com o Codex; Lucas revisará cada entrega e reconstruirá o problema durante a semana para consolidar o aprendizado.
+Este documento define o projeto de um pipeline em Python que integra transações de dois sistemas financeiros simulados, padroniza e valida os dados, persiste em PostgreSQL e calcula indicadores com SQL. A construção será feita em etapas com auxilio do Codex; 
 
 O alvo é demonstrar integração de sistemas e qualidade de dados no contexto descrito para a oportunidade na IZE. Este projeto não usa dados, credenciais ou APIs reais da empresa. Os contratos abaixo são definidos para a demonstração, sem representar Conta Azul, Omie ou outro ERP comercial.
 
